@@ -140,20 +140,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
     r = requests.get('https://github.com/cyberattack07/approval.txt/blob/main/approval.txt').text
-    b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
-    
-else:
-    os.system("clear")
-    print
-    print(green+"Your key  : "+key2)
-    print(yellow+"\n\t\tContact +8801712034653 FUCK BOY ALAMGIR PRIYAR PAPA ALAM VAU")
-    os.system('xdg-open https://m.me/Tera.Papa.Alamgir.441')
-    exit()
-if to in r:
+    if to in r:
         time.sleep(2)
         bsn_menu()
     else:
@@ -191,7 +178,7 @@ def chigozie():
     print (' %s*%s tools ini menggunakan login cookies facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan cookies facebook?\n %s*%s ketik open untuk mendapatkan cookies'%(O,N,O,N,O,N))
     cookie = input("\n %s[%s?%s] Cookies : %s"% (O,O,O,O))
     if cookie in['OPEN','Open','open']:
-      jalan("\n  %s* %sanda akan di arahkan ke YouTube"%(O,O));time.sleep(3);os.system('xdg-open https://wa.me/+01712034653');chigozie()
+      jalan("\n  %s* %sanda akan di arahkan ke YouTube"%(O,O));time.sleep(3);os.system('xdg-open https://wa.me/+2348069472717');chigozie()
     try:
         head={'Host':'business.facebook.com','cache-control':'max-age=0','upgrade-insecure-requests':'1','user-agent':'Mozilla/5.0 (Android; Mobile; rv:40.0) Gecko/40.0 Firefox/40.0','accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8','content-type' : 'text/html; charset=utf-8','accept-encoding':'gzip, deflate br','accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7','cookie': cookie}
         asww=requests.get("https://business.facebook.com/creatorstudio/home", headers=head)
@@ -203,7 +190,7 @@ def chigozie():
         print('\n\n %s*%s selamat datang %s%s%s'%(O,O,O,nama,O));time.sleep(2)
         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,O));time.sleep(2)
         input(' %s*%s tekan enter '%(O,O))
-        os.system('xdg-open https://m.me/Tera.Papa.Alamgir.441')
+        os.system('xdg-open https://wa.me/+2348069472717')
         bsn_menu()
     except AttributeError:
         print('\n %s[%sÃ—%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
